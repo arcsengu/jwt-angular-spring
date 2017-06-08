@@ -24,14 +24,19 @@
                     <execution>
                         <goals>
                             <goal>repackage</goal>
+                            
+                        </goals>
+                    </execution>
+                    <executions>
+                    <execution>
+                        <id>default-war</id>
+                        <phase>package</phase>
+                        <goals>
                             <goal>war</goal>
                         </goals>
                     </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-
+                            </executions>
+       
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
