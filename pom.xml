@@ -28,13 +28,7 @@
                         </goals>
                     </execution>
                     <executions>
-                    <execution>
-                        <id>default-war</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>war</goal>
-                        </goals>
-                    </execution>
+                    
                             </executions>
        
     <dependencies>
