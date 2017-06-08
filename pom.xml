@@ -24,6 +24,7 @@
                     <execution>
                         <goals>
                             <goal>repackage</goal>
+                            <goal>war</goal>
                         </goals>
                     </execution>
                 </executions>
